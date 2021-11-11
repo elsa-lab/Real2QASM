@@ -1,0 +1,27 @@
+
+Real2QASM
+                                                                        
+Copyright (c) 2021 ELSA Lab, National Tsing Hua University
+                                                                        
+Real2QASM has been developed by Kuan-Yu Chang at ELSA Lab, National
+Tsing Hua University, Hsinchu, Taiwan. If you use of this software
+contributes to a published paper, we request that you cite our paper:
+K.-Y. Chang and C.-Y. Lee, "Mapping Nearest Neighbor Compliant Quantum
+Circuits onto a 2-D Hexagonal Architecture," IEEE Transactions on
+Computer-Aided Design of Integrated Circuits and Systems, DOI:
+10.1109/TCAD.2021.3127868.
+
+Permission to use, copy, and modify this software and its documentation
+is granted only under the following terms and conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+This software may be distributed (but not offered for sale or
+transferred for compensation) to third parties, provided such third
+parties agree to abide by the terms and conditions of this notice.
+
+This software is distributed in the hope that it will be useful to the
+community, but WITHOUT ANY WARRANTY; without even the implied warranty
+of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
