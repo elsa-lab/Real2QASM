@@ -29,17 +29,17 @@ of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 import os, argparse
 import qiskit as qk
 
-parser = argparse.ArgumentParser(description='Conversion from real to qasm (MCT-Library Only).')
+parser = argparse.ArgumentParser(description='Real2QASM is a script to convert quantum circuits from `Real` to `QASM`, which supports MCT-library only.')
 parser.add_argument('REAL', type=str, 
                     help='Input file (.real format)')
 parser.add_argument('-o', '--output', metavar='QASM', type=str, default=None,
                     help='Output file (.qasm format)')
 parser.add_argument('--basis-gates', metavar='BASIS_GATES', type=str, default=None,
-                    help='List of basis gate names pass to Qiskit transpiler for unrolling (e.g: u1,h,x,t,tdg,cx). If empty, do not unroll.')
+                    help='List of basis gate names pass to Qiskit transpiler for unrolling (e.g., cx,u3). If empty, do not unroll.')
 parser.add_argument('--show-input-circuit', action='store_true',
-                    help='Draw the input quantum circuit.')
+                    help='Display the input quantum circuit.')
 parser.add_argument('--show-output-circuit', action='store_true',
-                    help='Draw the output quantum circuit.')
+                    help='Display the output quantum circuit.')
 args = parser.parse_args()
 
 real_file = args.REAL
