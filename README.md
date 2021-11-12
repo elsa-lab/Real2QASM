@@ -81,3 +81,35 @@ q_2: ─────────────────────────
 
 Saving... done.
 ```
+
+## References
+
+If you use Real2QASM, please cite the following BibTeX entries.
+
+```
+@inproceedings{wille2008revlib,
+  title={RevLib: An online resource for reversible functions and reversible circuits},
+  author={Wille, Robert and Gro{\ss}e, Daniel and Teuber, Lisa and Dueck, Gerhard W and Drechsler, Rolf},
+  booktitle={38th International Symposium on Multiple Valued Logic (ismvl 2008)},
+  pages={220--225},
+  year={2008},
+  organization={IEEE}
+}
+
+@article{cross2017open,
+  title={Open quantum assembly language},
+  author={Cross, Andrew W and Bishop, Lev S and Smolin, John A and Gambetta, Jay M},
+  journal={arXiv preprint arXiv:1707.03429},
+  year={2017}
+}
+
+@article{aleksandrowicz2019qiskit,
+  author={Aleksandrowicz, Gadi and Alexander, Thomas and Barkoutsos, Panagiotis and others},
+  title={{Qiskit: An Open-source Framework for Quantum Computing}},
+  month={Jan.},
+  year={2019},
+  publisher={Zenodo},
+  doi={10.5281/zenodo.2562111},
+  url={https://doi.org/10.5281/zenodo.2562111}
+}
+```
