@@ -2,6 +2,15 @@
 
 Real2QASM is a script to convert quantum circuits from `Real` to `QASM`, which supports MCT-library only. The folder `source` contains the benchmark circuits considered in our paper. For more MCT circuits, please refer to [RevLib](http://www.informatik.uni-bremen.de/rev_lib/realizations.php?lib=1).
 
+## Quick Start
+
+```bash
+$ REAL2QASM=/path/to/real2qasm
+$ pip install -r ${REAL2QASM}/requirement.txt
+$ mkdir unrolled_cx_u3; cd unrolled_cx_u3
+$ for real in ${REAL2QASM}/source/*.real; do python ${REAL2QASM}/main.py --basis-gates cx,u3 ${real}; done
+```
+
 ## Usage
 
 ```
