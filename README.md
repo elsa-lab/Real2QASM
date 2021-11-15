@@ -84,23 +84,18 @@ Saving... done.
 
 ## References
 
-If you use Real2QASM, please cite the following BibTeX entries.
+If you use of Real2QASM contributes to a published paper, please cite the following BibTeX entries.
 
 ```
-@inproceedings{wille2008revlib,
-  title={RevLib: An online resource for reversible functions and reversible circuits},
-  author={Wille, Robert and Gro{\ss}e, Daniel and Teuber, Lisa and Dueck, Gerhard W and Drechsler, Rolf},
-  booktitle={38th International Symposium on Multiple Valued Logic (ismvl 2008)},
-  pages={220--225},
-  year={2008},
-  organization={IEEE}
-}
-
-@article{cross2017open,
-  title={Open quantum assembly language},
-  author={Cross, Andrew W and Bishop, Lev S and Smolin, John A and Gambetta, Jay M},
-  journal={arXiv preprint arXiv:1707.03429},
-  year={2017}
+@article{chang2021mapping,
+  author={Chang, Kaun-Yu and Lee, Chun-Yi},
+  journal={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems}, 
+  title={Mapping Nearest Neighbor Compliant Quantum Circuits onto a 2-D Hexagonal Architecture}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TCAD.2021.3127868}
 }
 
 @article{aleksandrowicz2019qiskit,
@@ -113,14 +108,19 @@ If you use Real2QASM, please cite the following BibTeX entries.
   url={https://doi.org/10.5281/zenodo.2562111}
 }
 
-@article{chang2021mapping,
-  author={Chang, Kaun-Yu and Lee, Chun-Yi},
-  journal={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems}, 
-  title={Mapping Nearest Neighbor Compliant Quantum Circuits onto a 2-D Hexagonal Architecture}, 
-  year={2021},
-  volume={},
-  number={},
-  pages={1-1},
-  doi={10.1109/TCAD.2021.3127868}
+@article{cross2017open,
+  title={Open quantum assembly language},
+  author={Cross, Andrew W and Bishop, Lev S and Smolin, John A and Gambetta, Jay M},
+  journal={arXiv preprint arXiv:1707.03429},
+  year={2017}
+}
+
+@inproceedings{wille2008revlib,
+  title={RevLib: An online resource for reversible functions and reversible circuits},
+  author={Wille, Robert and Gro{\ss}e, Daniel and Teuber, Lisa and Dueck, Gerhard W and Drechsler, Rolf},
+  booktitle={38th International Symposium on Multiple Valued Logic (ismvl 2008)},
+  pages={220--225},
+  year={2008},
+  organization={IEEE}
 }
 ```
