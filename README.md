@@ -112,4 +112,15 @@ If you use Real2QASM, please cite the following BibTeX entries.
   doi={10.5281/zenodo.2562111},
   url={https://doi.org/10.5281/zenodo.2562111}
 }
+
+@article{chang2021mapping,
+  author={Chang, Kaun-Yu and Lee, Chun-Yi},
+  journal={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems}, 
+  title={Mapping Nearest Neighbor Compliant Quantum Circuits onto a 2-D Hexagonal Architecture}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TCAD.2021.3127868}
+}
 ```
