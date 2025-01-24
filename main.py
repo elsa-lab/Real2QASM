@@ -28,6 +28,8 @@ of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 import os, argparse
 import qiskit as qk
+from qiskit.qasm2 import dumps
+
 
 parser = argparse.ArgumentParser(description='Real2QASM is a script to convert quantum circuits from `Real` to `QASM`, which supports MCT-library only.')
 parser.add_argument('REAL', type=str, 
@@ -116,6 +118,12 @@ if args.show_output_circuit:
     print('Output circuit is same as input circuit.')
 
 print('Saving...', end=' ')
-circ.qasm(False, qasm_file)
+try:
+    qasm_str = circ.qasm()
+except AttributeError:
+    qasm_str = dumps(circ)
+
+with open(qasm_file, 'w') as f:
+    f.write(qasm_str)
 print('done.')
 
