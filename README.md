@@ -1,4 +1,4 @@
-# Real2QASM ![Ubuntu](https://shields.io/badge/Ubuntu-16.04-orange) ![Python_3.6](https://shields.io/badge/Python-3.6-blue) ![Qiskit_0.19.0](https://shields.io/badge/Qiskit-0.19.0-blueviolet)
+# Real2QASM ![Ubuntu](https://shields.io/badge/Ubuntu-16.04-orange) ![Python_3.6](https://shields.io/badge/Python-3.6-blue) ![Qiskit_1.3.2](https://shields.io/badge/Qiskit-1.3.2-blueviolet)
 
 Real2QASM is a script to convert quantum circuits from `Real` to `QASM`, which supports MCT-library only. The folder `source` contains the benchmark circuits considered in our paper. For more MCT circuits, please refer to [RevLib](http://www.informatik.uni-bremen.de/rev_lib/realizations.php?lib=1).
 
